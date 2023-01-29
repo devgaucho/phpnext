@@ -8,6 +8,19 @@ A PHP routing system for [Next.js static HTML](https://nextjs.org/docs/advanced-
 composer require gaucho/phpnext
 ```
 
+## .htaccess
+
+```
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+</IfModule>
+```
+
 ## Use
 
 ```php
