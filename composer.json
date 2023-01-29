@@ -1,11 +1,11 @@
 {
-    "name": "devgaucho/phpnext",
+    "name": "gaucho/phpnext",
     "description": "A PHP routing system for Next.js static HTML without any Node.js in back-end",
     "type": "library",
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "devgaucho\\": "src/"
+            "gaucho\\": "src/"
         }
     },
     "authors": [

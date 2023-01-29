@@ -5,7 +5,7 @@ A PHP routing system for [Next.js static HTML](https://nextjs.org/docs/advanced-
 ## Installation
 
 ```bash
-composer require devgaucho/phpnext
+composer require gaucho/phpnext
 ```
 
 ## Use
@@ -14,7 +14,7 @@ composer require devgaucho/phpnext
 <?php
 require 'vendor/autoload.php';
 
-use devgaucho\PHPNext;
+use gaucho\PHPNext;
 
 $outDir=realpath(__DIR__.'/out');
 $pn=new PHPNext($outDir);
